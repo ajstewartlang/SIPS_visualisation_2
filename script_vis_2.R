@@ -1,5 +1,6 @@
 library(ggplot2)
 library(readr)
+library(magrittr)
 
 full_trains <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-26/full_trains.csv")
 
